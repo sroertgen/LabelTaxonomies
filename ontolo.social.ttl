@@ -1,0 +1,277 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ont: <https://labelmachine.org/ontolo.social/>.
+
+ont:
+    a skos:ConceptScheme;
+    dct:title "Ontolo.social Taxonomy"@de;
+    skos:hasTopConcept
+        ont:08a45, ont:43a43, ont:60b5a, ont:612b8, ont:6616f, ont:92498,
+        ont:f0043, ont:f857c.
+ont:04dcf
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Natural Sciences"@en.
+ont:08a45
+    a skos:Concept;
+    skos:narrower ont:0ea8d, ont:b04ec;
+    skos:prefLabel "Travel"@en;
+    skos:topConceptOf ont: .
+ont:0ea8d
+    a skos:Concept;
+    skos:broader ont:08a45;
+    skos:inScheme ont:;
+    skos:prefLabel "Destinations"@en.
+ont:102c8
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Art"@en.
+ont:1a614
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Photography & Videography"@en.
+ont:20545
+    a skos:Concept;
+    skos:broader ont:43a43;
+    skos:inScheme ont:;
+    skos:prefLabel "Macro & Economics"@en.
+ont:2280a
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Internet Technology"@en.
+ont:22f7d
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Social Sciences"@en.
+ont:2ac70
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Recreational Drugs"@en.
+ont:2cca6
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Transportation Technology"@en.
+ont:43a43
+    a skos:Concept;
+    skos:narrower ont:20545, ont:6c05a, ont:a508c, ont:cc903, ont:f53f8;
+    skos:prefLabel "Finance"@en;
+    skos:topConceptOf ont: .
+ont:43e81
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Memes & Media"@en.
+ont:4771e
+    a skos:Concept;
+    skos:broader ont:60b5a;
+    skos:inScheme ont:;
+    skos:prefLabel "Mental Health"@en.
+ont:4b79d
+    a skos:Concept;
+    skos:broader ont:6616f;
+    skos:inScheme ont:;
+    skos:prefLabel "Law"@en.
+ont:4bc27
+    a skos:Concept;
+    skos:broader ont:6616f;
+    skos:inScheme ont:;
+    skos:prefLabel "Religion"@en.
+ont:54b7b
+    a skos:Concept;
+    skos:broader ont:60b5a;
+    skos:inScheme ont:;
+    skos:prefLabel "Conventional Medicine"@en.
+ont:5bb91
+    a skos:Concept;
+    skos:broader ont:612b8;
+    skos:inScheme ont:;
+    skos:prefLabel "Drinks & Mixology"@en.
+ont:60b5a
+    a skos:Concept;
+    skos:narrower ont:4771e, ont:54b7b, ont:78efd, ont:b4e0e, ont:f6fd4;
+    skos:prefLabel "Health & Wellness"@en;
+    skos:topConceptOf ont: .
+ont:612b8
+    a skos:Concept;
+    skos:narrower ont:5bb91, ont:73275, ont:a49a2, ont:eb206;
+    skos:prefLabel "Food & Drink"@en;
+    skos:topConceptOf ont: .
+ont:6616f
+    a skos:Concept;
+    skos:narrower ont:4b79d, ont:4bc27, ont:7f32b, ont:c3c44;
+    skos:prefLabel "Philosophy, Religion, Law & History"@en;
+    skos:topConceptOf ont: .
+ont:6c05a
+    a skos:Concept;
+    skos:broader ont:43a43;
+    skos:inScheme ont:;
+    skos:prefLabel "Personal Finance"@en.
+ont:6d748
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Energy Technology"@en.
+ont:720a2
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Books & Writing"@en.
+ont:73275
+    a skos:Concept;
+    skos:broader ont:612b8;
+    skos:inScheme ont:;
+    skos:prefLabel "Recipes"@en.
+ont:78efd
+    a skos:Concept;
+    skos:broader ont:60b5a;
+    skos:inScheme ont:;
+    skos:prefLabel "Yoga & Meditation"@en.
+ont:7f32b
+    a skos:Concept;
+    skos:broader ont:6616f;
+    skos:inScheme ont:;
+    skos:prefLabel "History"@en.
+ont:87506
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Sports"@en.
+ont:8b367
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Medical Technology"@en.
+ont:92498
+    a skos:Concept;
+    skos:narrower
+    ont:1a614, ont:2ac70, ont:a9302, ont:c875f, ont:c93ec, ont:d2f7c, ont:fda62;
+    skos:prefLabel "Hobbies"@en;
+    skos:topConceptOf ont: .
+ont:a49a2
+    a skos:Concept;
+    skos:broader ont:612b8;
+    skos:inScheme ont:;
+    skos:prefLabel "Cooking"@en.
+ont:a508c
+    a skos:Concept;
+    skos:broader ont:43a43;
+    skos:inScheme ont:;
+    skos:prefLabel "Altcoins"@en.
+ont:a9302
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Sports"@en.
+ont:aec83
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Gaming"@en.
+ont:b04ec
+    a skos:Concept;
+    skos:broader ont:08a45;
+    skos:inScheme ont:;
+    skos:prefLabel "Tips & Tricks"@en.
+ont:b1252
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Formal Sciences"@en.
+ont:b40b2
+    a skos:Concept;
+    skos:broader ont:f0043;
+    skos:inScheme ont:;
+    skos:prefLabel "Nostr"@en.
+ont:b4e0e
+    a skos:Concept;
+    skos:broader ont:60b5a;
+    skos:inScheme ont:;
+    skos:prefLabel "Alternative Medicine"@en.
+ont:b5f75
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Music"@en.
+ont:b8d37
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "Gambling"@en.
+ont:c3c44
+    a skos:Concept;
+    skos:broader ont:6616f;
+    skos:inScheme ont:;
+    skos:prefLabel "Philosophy"@en.
+ont:c875f
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Arts & Crafts"@en.
+ont:c93ec
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Machines & Transportations"@en.
+ont:cc903
+    a skos:Concept;
+    skos:broader ont:43a43;
+    skos:inScheme ont:;
+    skos:prefLabel "Bitcoin"@en.
+ont:ce5d2
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "News & Current Events"@en.
+ont:d2f7c
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Music"@en.
+ont:e4fc5
+    a skos:Concept;
+    skos:broader ont:f857c;
+    skos:inScheme ont:;
+    skos:prefLabel "NSFW"@en.
+ont:eb206
+    a skos:Concept;
+    skos:broader ont:612b8;
+    skos:inScheme ont:;
+    skos:prefLabel "Food"@en.
+ont:f0043
+    a skos:Concept;
+    skos:narrower
+        ont:04dcf, ont:2280a, ont:22f7d, ont:2cca6, ont:6d748, ont:8b367,
+        ont:b1252, ont:b40b2;
+    skos:prefLabel "Science & Technology"@en;
+    skos:topConceptOf ont: .
+ont:f0f40 a skos:Concept; skos:inScheme ont: .
+
+ont:f53f8
+    a skos:Concept;
+    skos:broader ont:43a43;
+    skos:inScheme ont:;
+    skos:prefLabel "Investing"@en.
+ont:f6fd4
+    a skos:Concept;
+    skos:broader ont:60b5a;
+    skos:inScheme ont:;
+    skos:prefLabel "Exercise"@en.
+ont:f857c
+    a skos:Concept;
+    skos:narrower
+        ont:102c8, ont:43e81, ont:720a2, ont:87506, ont:aec83, ont:b5f75,
+        ont:b8d37, ont:ce5d2, ont:e4fc5, ont:f0f40;
+    skos:prefLabel "Entertainment & Sports"@en;
+    skos:topConceptOf ont: .
+ont:fda62
+    a skos:Concept;
+    skos:broader ont:92498;
+    skos:inScheme ont:;
+    skos:prefLabel "Outdoors"@en.
