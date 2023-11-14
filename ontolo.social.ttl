@@ -4,7 +4,7 @@
 
 ont:
     a skos:ConceptScheme;
-    dct:title "Ontolo.social Taxonomy"@de;
+    dct:title "Ontolo.social Taxonomy"@en;
     skos:hasTopConcept
         ont:08a45, ont:43a43, ont:60b5a, ont:612b8, ont:6616f, ont:92498,
         ont:f0043, ont:f857c.
