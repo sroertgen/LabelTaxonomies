@@ -4,7 +4,7 @@
 
 ont:
     a skos:ConceptScheme;
-    dct:title "Ontolo.social Taxonomy"@en;
+    dct:title "Nostr RDF Sentiments"@en;
     skos:hasTopConcept
         ont:yay, ont:nay, ont:gigi .
 
