@@ -1,0 +1,24 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix ont: <https://labelmachine.org/fck-rdf-nostr/>.
+
+ont:
+    a skos:ConceptScheme;
+    dct:title "Ontolo.social Taxonomy"@en;
+    skos:hasTopConcept
+        ont:yay, ont:nay, ont:gigi .
+
+ont:yay a skos:Concept ;
+  skos:preflabel "RDF is cool!"@en ;
+  skos:topConceptOf ont: ;
+.
+
+ont:nay a skos:Concept ;
+  skos:preflabel "Fuck RDF!"@en ;
+  skos:topConceptOf ont: ;
+.
+
+ont:gigi a skos:Concept ;
+  skos:preflabel "RDF? I want triplets from my wife!👶🏼👶🏾👶🏿"@en ;
+  skos:topConceptOf ont: ;
+.
