@@ -1,1 +1,1 @@
-{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://labelmachine.org/ontolo.social/","fields":{"languages":["en"]}}}]}}}
+{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://labelmachine.org/fck-rdf-nostr/","fields":{"languages":["en"]}}},{"node":{"id":"https://labelmachine.org/ontolo.social/","fields":{"languages":["en"]}}}]}}}
