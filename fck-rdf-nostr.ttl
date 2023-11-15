@@ -9,16 +9,16 @@ ont:
         ont:yay, ont:nay, ont:gigi .
 
 ont:yay a skos:Concept ;
-  skos:preflabel "RDF is cool!"@en ;
+  skos:prefLabel "I'm so bullshit on RDF!"@en ;
   skos:topConceptOf ont: ;
 .
 
 ont:nay a skos:Concept ;
-  skos:preflabel "Fuck RDF!"@en ;
+  skos:prefLabel "Fuck RDF! Way too abstract!"@en ;
   skos:topConceptOf ont: ;
 .
 
 ont:gigi a skos:Concept ;
-  skos:preflabel "RDF? I want triplets from my wife!👶🏼👶🏾👶🏿"@en ;
+  skos:prefLabel "RDF? I want triplets from my wife!👶🏼👶🏾👶🏿"@en ;
   skos:topConceptOf ont: ;
 .
